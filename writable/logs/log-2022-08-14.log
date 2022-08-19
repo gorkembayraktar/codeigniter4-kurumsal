@@ -1,0 +1,1626 @@
+CRITICAL - 2022-08-14 00:18:18 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:19:58 --> Undefined variable $item
+in APPPATH\Views\back\dashboard.php on line 19.
+ 1 APPPATH\Views\back\dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'APPPATH\\Views\\back\\dashboard.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/dashboard', [], true)
+ 5 APPPATH\Controllers\Backend\Dashboard.php(19): view('back/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:20:04 --> Undefined variable $item
+in APPPATH\Views\back\dashboard.php on line 19.
+ 1 APPPATH\Views\back\dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'APPPATH\\Views\\back\\dashboard.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/dashboard', [], true)
+ 5 APPPATH\Controllers\Backend\Dashboard.php(19): view('back/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:20:50 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:20:52 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:20:53 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:37:47 --> Undefined variable $list
+in APPPATH\Controllers\Backend\Dashboard.php on line 20.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:38:14 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:38:16 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:38:18 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:38:21 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:40:56 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:40:58 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:40:59 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:41:02 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:41:03 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:41:04 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:41:05 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:41:06 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:41:08 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:41:10 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:41:11 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:44:14 --> syntax error, unexpected token "endif"
+in APPPATH\Views\back\dashboard.php on line 27.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/dashboard', [], true)
+ 3 APPPATH\Controllers\Backend\Dashboard.php(20): view('back/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:44:14 --> syntax error, unexpected token "endif"
+in APPPATH\Views\back\dashboard.php on line 27.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/dashboard', [], true)
+ 3 APPPATH\Controllers\Backend\Dashboard.php(20): view('back/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:44:18 --> syntax error, unexpected token "endif"
+in APPPATH\Views\back\dashboard.php on line 27.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/dashboard', [], true)
+ 3 APPPATH\Controllers\Backend\Dashboard.php(20): view('back/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:46:00 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:46:28 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:46:31 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:46:32 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:46:33 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:55:37 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:55:39 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:55:42 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:58:25 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 00:58:26 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:08:52 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:08:53 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:12:19 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->new_section_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:14:09 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->new_section_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:14:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->new_section_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:14:39 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->new_section_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:14:40 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->new_section_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:15:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->new_section_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:27:05 --> Call to undefined function App\Controllers\Backend\json_encoe()
+in APPPATH\Controllers\Backend\Dashboard.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_delete('14')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:29:32 --> Cannot access offset of type string on string
+in APPPATH\Controllers\Backend\Dashboard.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_delete('13')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 01:40:23 --> Unclosed '[' does not match ')'
+in APPPATH\Controllers\Backend\Dashboard.php on line 117.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:24:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+in APPPATH\Controllers\Backend\Dashboard.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_delete('20')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:34:53 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:34:54 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 357.
+ 1 APPPATH\Controllers\Backend\Corporate.php(357): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 357)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:52:20 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Dashboard.php on line 137.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:54:28 --> Undefined property: App\Controllers\Backend\Dashboard::$input
+in APPPATH\Controllers\Backend\Dashboard.php on line 132.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Dashboard::$input', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:54:38 --> Undefined property: App\Controllers\Backend\Dashboard::$input
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Dashboard::$input', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:54:50 --> Undefined property: App\Controllers\Backend\Dashboard::$input
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Dashboard::$input', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:55:10 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Dashboard.php on line 137.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:56:36 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Dashboard.php on line 138.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:57:32 --> Unsupported operand types: string + int
+in APPPATH\Controllers\Backend\Dashboard.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 02:58:23 --> unserialize(): Error at offset 0 of 100 bytes
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): Error at offset 0 of 100 bytes', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize('order[]=1&order[]=2&order[]=3&order[]=4&order[]=5&order[]=6&order[]=7&order[]=8&order[]=9&order[]=23')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:01:43 --> unserialize(): Argument #1 ($data) must be of type string, array given
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:02:02 --> unserialize(): Argument #1 ($data) must be of type string, array given
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:02:10 --> unserialize(): Argument #1 ($data) must be of type string, array given
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:02:13 --> unserialize(): Argument #1 ($data) must be of type string, array given
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:04:25 --> unserialize(): Error at offset 0 of 100 bytes
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): Error at offset 0 of 100 bytes', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize('order[]=2&order[]=1&order[]=3&order[]=4&order[]=5&order[]=6&order[]=7&order[]=8&order[]=9&order[]=23')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:04:28 --> unserialize(): Error at offset 0 of 100 bytes
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): Error at offset 0 of 100 bytes', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize('order[]=2&order[]=3&order[]=1&order[]=4&order[]=5&order[]=6&order[]=7&order[]=8&order[]=9&order[]=23')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:04:34 --> unserialize(): Error at offset 0 of 100 bytes
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): Error at offset 0 of 100 bytes', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize('order[]=2&order[]=3&order[]=1&order[]=4&order[]=6&order[]=5&order[]=7&order[]=8&order[]=9&order[]=23')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:05:07 --> unserialize(): Error at offset 0 of 100 bytes
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): Error at offset 0 of 100 bytes', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize('order[]=2&order[]=1&order[]=3&order[]=4&order[]=5&order[]=6&order[]=7&order[]=8&order[]=9&order[]=23')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:05:13 --> unserialize(): Error at offset 0 of 100 bytes
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): Error at offset 0 of 100 bytes', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize('order[]=2&order[]=1&order[]=5&order[]=3&order[]=4&order[]=6&order[]=7&order[]=8&order[]=9&order[]=23')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:05:14 --> unserialize(): Error at offset 0 of 100 bytes
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): Error at offset 0 of 100 bytes', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize('order[]=1&order[]=2&order[]=5&order[]=3&order[]=4&order[]=6&order[]=7&order[]=8&order[]=9&order[]=23')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:05:19 --> unserialize(): Error at offset 0 of 100 bytes
+in APPPATH\Controllers\Backend\Dashboard.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'unserialize(): Error at offset 0 of 100 bytes', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 134)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(134): unserialize('order[]=23&order[]=1&order[]=2&order[]=5&order[]=3&order[]=4&order[]=6&order[]=7&order[]=8&order[]=9')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:08:21 --> unserialize(): Argument #1 ($data) must be of type string, array given
+in APPPATH\Controllers\Backend\Dashboard.php on line 132.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(132): unserialize([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:24:56 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:25:19 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:25:23 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:26:16 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:27:22 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:27:42 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:33:22 --> Class "App\Filters\MaintenanceFrontendFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:33:41 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:34:06 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:34:07 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:37:29 --> Undefined variable $setting
+in APPPATH\Controllers\Frontend\Home.php on line 86.
+ 1 APPPATH\Controllers\Frontend\Home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Controllers\\Frontend\\Home.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->bakimda()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:38:02 --> syntax error, unexpected token "use", expecting ";" or "{"
+in APPPATH\Controllers\Frontend\Home.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:38:26 --> syntax error, unexpected token "use", expecting ";" or "{"
+in APPPATH\Controllers\Frontend\Home.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:38:26 --> syntax error, unexpected token "use", expecting ";" or "{"
+in APPPATH\Controllers\Frontend\Home.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:38:27 --> syntax error, unexpected token "use", expecting ";" or "{"
+in APPPATH\Controllers\Frontend\Home.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:38:38 --> Undefined variable $setting
+in APPPATH\Controllers\Frontend\Home.php on line 85.
+ 1 APPPATH\Controllers\Frontend\Home.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Controllers\\Frontend\\Home.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->bakimda()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:38:48 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 03:50:13 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Frontend\Blog.php on line 45.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 13:58:31 --> Class "App\Librarires\Setting" not found
+in APPPATH\Config\Services.php on line 27.
+ 1 SYSTEMPATH\Config\BaseService.php(194): Config\Services::setting(false)
+ 2 APPPATH\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('setting')
+ 3 SYSTEMPATH\Common.php(962): Config\Services::setting()
+ 4 APPPATH\Filters\MaintenanceFrontendFilter.php(13): service('setting')
+ 5 SYSTEMPATH\Filters\Filters.php(173): App\Filters\MaintenanceFrontendFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 6 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 13:59:10 --> syntax error, unexpected token "(", expecting "{"
+in APPPATH\Libraries\Setting.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\Setting.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Setting')
+ 3 APPPATH\Config\Services.php(27): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Setting')
+ 4 SYSTEMPATH\Config\BaseService.php(194): Config\Services::setting(false)
+ 5 APPPATH\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('setting')
+ 6 SYSTEMPATH\Common.php(962): Config\Services::setting()
+ 7 APPPATH\Filters\MaintenanceFrontendFilter.php(13): service('setting')
+ 8 SYSTEMPATH\Filters\Filters.php(173): App\Filters\MaintenanceFrontendFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 14:00:05 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 14:01:59 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 14:02:02 --> Undefined variable $setting
+in APPPATH\Views\front\layouts\header.php on line 9.
+ 1 APPPATH\Views\front\layouts\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\front\\layouts\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(42): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 14:02:49 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\FrontendController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\FrontendController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FrontendController')
+ 3 APPPATH\Controllers\Frontend\Home.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FrontendController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Frontend\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 15:25:08 --> json_decode(): Passing null to parameter #1 ($json) of type string is deprecated
+in APPPATH\Controllers\Backend\Dashboard.php on line 202.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_decode(): Passing null to parameter #1 ($json) of type string is deprecated', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 202)
+ 2 APPPATH\Controllers\Backend\Dashboard.php(202): json_decode(null, true)
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_update()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 15:25:57 --> syntax error, unexpected token ":", expecting "]"
+in APPPATH\Controllers\Backend\Dashboard.php on line 202.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 15:26:03 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 207.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_update()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:23:55 --> Undefined constant "App\Controllers\Backend\i"
+in APPPATH\Controllers\Backend\Dashboard.php on line 253.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_update()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:24:02 --> Undefined array key 0
+in APPPATH\Controllers\Backend\Dashboard.php on line 253.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 253)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_update()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:24:10 --> Undefined array key 0
+in APPPATH\Controllers\Backend\Dashboard.php on line 253.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 253)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_update()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:24:36 --> Undefined array key "title"
+in APPPATH\Controllers\Backend\Dashboard.php on line 256.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 256)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_update()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:25:06 --> Undefined array key "title"
+in APPPATH\Controllers\Backend\Dashboard.php on line 256.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 256)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_update()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:25:07 --> Undefined array key "title"
+in APPPATH\Controllers\Backend\Dashboard.php on line 256.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 256)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->section_update()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:55:07 --> syntax error, unexpected single-quoted string "Custom", expecting ":" or ";"
+in APPPATH\Controllers\Frontend\Home.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:55:39 --> Undefined array key "image"
+in APPPATH\Views\front\widgets\main_slider.php on line 10.
+ 1 APPPATH\Views\front\widgets\main_slider.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\front\\widgets\\main_slider.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\main_slider.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/main_slider', null, true)
+ 5 APPPATH\Views\front\home.php(7): CodeIgniter\View\View->include('front/widgets/main_slider')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(86): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:55:39 --> Undefined array key "image"
+in APPPATH\Views\front\widgets\main_slider.php on line 10.
+ 1 APPPATH\Views\front\widgets\main_slider.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\front\\widgets\\main_slider.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\main_slider.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/main_slider', null, true)
+ 5 APPPATH\Views\front\home.php(7): CodeIgniter\View\View->include('front/widgets/main_slider')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(86): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:55:48 --> Undefined array key "image"
+in APPPATH\Views\front\widgets\main_slider.php on line 10.
+ 1 APPPATH\Views\front\widgets\main_slider.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'APPPATH\\Views\\front\\widgets\\main_slider.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\main_slider.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/main_slider', null, true)
+ 5 APPPATH\Views\front\home.php(7): CodeIgniter\View\View->include('front/widgets/main_slider')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(86): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:00:33 --> Undefined array key "slug"
+in APPPATH\Views\front\widgets\service_section.php on line 21.
+ 1 APPPATH\Views\front\widgets\service_section.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'APPPATH\\Views\\front\\widgets\\service_section.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\service_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/service_section', null, true)
+ 5 APPPATH\Views\front\home.php(12): CodeIgniter\View\View->include('front/widgets/service_section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(86): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:06:33 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 90.
+ 1 APPPATH\Controllers\Frontend\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:07:15 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 90.
+ 1 APPPATH\Controllers\Frontend\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:07:17 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 90.
+ 1 APPPATH\Controllers\Frontend\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:07:33 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 90.
+ 1 APPPATH\Controllers\Frontend\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:08:03 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 90.
+ 1 APPPATH\Controllers\Frontend\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:08:04 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 90.
+ 1 APPPATH\Controllers\Frontend\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:08:13 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 90.
+ 1 APPPATH\Controllers\Frontend\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:08:49 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 91.
+ 1 APPPATH\Controllers\Frontend\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:08:50 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 91.
+ 1 APPPATH\Controllers\Frontend\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:08:51 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 91.
+ 1 APPPATH\Controllers\Frontend\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:08:59 --> Undefined array key "widget"
+in APPPATH\Controllers\Frontend\Home.php on line 91.
+ 1 APPPATH\Controllers\Frontend\Home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "widget"', 'APPPATH\\Controllers\\Frontend\\Home.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:09:32 --> syntax error, unexpected token ";"
+in APPPATH\Views\front\home.php on line 21.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 3 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:13:31 --> Undefined array key "buttonRedirect"
+in APPPATH\Views\front\widgets\about_section.php on line 23.
+ 1 APPPATH\Views\front\widgets\about_section.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "buttonRedirect"', 'APPPATH\\Views\\front\\widgets\\about_section.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\about_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/about_section', null, true)
+ 5 APPPATH\Views\front\home.php(9): CodeIgniter\View\View->include('front/widgets/about_section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:15:47 --> Undefined variable $hello
+in APPPATH\Views\front\widgets\about_section.php on line 2.
+ 1 APPPATH\Views\front\widgets\about_section.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hello', 'APPPATH\\Views\\front\\widgets\\about_section.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\about_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/about_section', [...], true)
+ 5 APPPATH\Views\front\home.php(10): CodeIgniter\View\View->include('front/widgets/about_section', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:16:41 --> Undefined variable $hello
+in APPPATH\Views\front\widgets\about_section.php on line 2.
+ 1 APPPATH\Views\front\widgets\about_section.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hello', 'APPPATH\\Views\\front\\widgets\\about_section.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\about_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/about_section', null, true)
+ 5 APPPATH\Views\front\home.php(11): CodeIgniter\View\View->include('front/widgets/about_section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:16:42 --> Undefined variable $hello
+in APPPATH\Views\front\widgets\about_section.php on line 2.
+ 1 APPPATH\Views\front\widgets\about_section.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hello', 'APPPATH\\Views\\front\\widgets\\about_section.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\about_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/about_section', null, true)
+ 5 APPPATH\Views\front\home.php(11): CodeIgniter\View\View->include('front/widgets/about_section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:16:51 --> Undefined variable $hello
+in APPPATH\Views\front\widgets\about_section.php on line 2.
+ 1 APPPATH\Views\front\widgets\about_section.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hello', 'APPPATH\\Views\\front\\widgets\\about_section.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\about_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/about_section', null, true)
+ 5 APPPATH\Views\front\home.php(11): CodeIgniter\View\View->include('front/widgets/about_section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:27:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\front\widgets\service_section.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/service_section', null, true)
+ 4 APPPATH\Views\front\home.php(13): CodeIgniter\View\View->include('front/widgets/service_section')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 8 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:32:30 --> Array to string conversion
+in APPPATH\Views\front\widgets\activities_section.php on line 9.
+ 1 APPPATH\Views\front\widgets\activities_section.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\front\\widgets\\activities_section.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\activities_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/activities_section', null, true)
+ 5 APPPATH\Views\front\home.php(13): CodeIgniter\View\View->include('front/widgets/activities_section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:33:50 --> Undefined array key "feautures"
+in APPPATH\Views\front\widgets\event_section.php on line 10.
+ 1 APPPATH\Views\front\widgets\event_section.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "feautures"', 'APPPATH\\Views\\front\\widgets\\event_section.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\event_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/event_section', null, true)
+ 5 APPPATH\Views\front\home.php(13): CodeIgniter\View\View->include('front/widgets/event_section')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:54:11 --> Call to undefined method CodeIgniter\View\View::view()
+in APPPATH\Views\front\home.php on line 10.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 4 APPPATH\Controllers\Frontend\Home.php(97): view('front\\home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 16:58:34 --> Undefined array key "info"
+in APPPATH\Views\front\widgets\about_section.php on line 12.
+ 1 APPPATH\Views\front\widgets\about_section.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "info"', 'APPPATH\\Views\\front\\widgets\\about_section.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\about_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front/widgets/about_section', [], true)
+ 5 APPPATH\Views\front\home.php(10): view('front/widgets/about_section', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 9 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 17:01:55 --> Call to undefined function App\Controllers\Frontend\now()
+in APPPATH\Controllers\Frontend\Home.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 18:28:35 --> Array to string conversion
+in APPPATH\Controllers\Backend\Dashboard.php on line 294.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->menu_order()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 18:52:20 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Libraries\Setting.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\Setting.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Setting')
+ 3 APPPATH\Config\Services.php(27): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Setting')
+ 4 SYSTEMPATH\Config\BaseService.php(194): Config\Services::setting(false)
+ 5 APPPATH\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('setting')
+ 6 SYSTEMPATH\Common.php(962): Config\Services::setting()
+ 7 APPPATH\Filters\MaintenanceFrontendFilter.php(13): service('setting')
+ 8 SYSTEMPATH\Filters\Filters.php(173): App\Filters\MaintenanceFrontendFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 18:58:06 --> Undefined variable $children
+in APPPATH\Libraries\Setting.php on line 38.
+ 1 APPPATH\Libraries\Setting.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $children', 'APPPATH\\Libraries\\Setting.php', 38)
+ 2 APPPATH\Controllers\FrontendController.php(17): App\Libraries\Setting->getMenus()
+ 3 APPPATH\Controllers\Frontend\Home.php(11): App\Controllers\FrontendController->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Frontend\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 18:58:08 --> Undefined variable $children
+in APPPATH\Libraries\Setting.php on line 38.
+ 1 APPPATH\Libraries\Setting.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $children', 'APPPATH\\Libraries\\Setting.php', 38)
+ 2 APPPATH\Controllers\FrontendController.php(17): App\Libraries\Setting->getMenus()
+ 3 APPPATH\Controllers\Frontend\Home.php(11): App\Controllers\FrontendController->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Frontend\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 18:59:56 --> syntax error, unexpected token "return"
+in APPPATH\Libraries\Setting.php on line 118.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\Setting.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Setting')
+ 3 APPPATH\Config\Services.php(27): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Setting')
+ 4 SYSTEMPATH\Config\BaseService.php(194): Config\Services::setting(false)
+ 5 APPPATH\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('setting')
+ 6 SYSTEMPATH\Common.php(962): Config\Services::setting()
+ 7 APPPATH\Filters\MaintenanceFrontendFilter.php(13): service('setting')
+ 8 SYSTEMPATH\Filters\Filters.php(173): App\Filters\MaintenanceFrontendFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:00:20 --> syntax error, unexpected token "return"
+in APPPATH\Libraries\Setting.php on line 134.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Libraries\\Setting.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Setting')
+ 3 APPPATH\Config\Services.php(27): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Setting')
+ 4 SYSTEMPATH\Config\BaseService.php(194): Config\Services::setting(false)
+ 5 APPPATH\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('setting')
+ 6 SYSTEMPATH\Common.php(962): Config\Services::setting()
+ 7 APPPATH\Filters\MaintenanceFrontendFilter.php(13): service('setting')
+ 8 SYSTEMPATH\Filters\Filters.php(173): App\Filters\MaintenanceFrontendFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 9 SYSTEMPATH\CodeIgniter.php(431): CodeIgniter\Filters\Filters->run('C:\\', 'before')
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:05:26 --> Undefined array key "to"
+in APPPATH\Views\front\layouts\header.php on line 115.
+ 1 APPPATH\Views\front\layouts\header.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "to"', 'APPPATH\\Views\\front\\layouts\\header.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:14:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\front\layouts\header.php on line 120.
+ 1 APPPATH\Views\front\layouts\header.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\front\\layouts\\header.php', 120)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\video_gallery', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(136): view('front\\video_gallery', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->video_galeri()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:14:33 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Libraries\Setting.php on line 45.
+ 1 APPPATH\Libraries\Setting.php(45): array_push(null, null)
+ 2 APPPATH\Controllers\FrontendController.php(17): App\Libraries\Setting->getMenus()
+ 3 APPPATH\Controllers\Frontend\Home.php(11): App\Controllers\FrontendController->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Frontend\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:14:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\front\layouts\header.php on line 120.
+ 1 APPPATH\Views\front\layouts\header.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\front\\layouts\\header.php', 120)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\video_gallery', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(136): view('front\\video_gallery', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->video_galeri()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:15:27 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(106): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\front\layouts\header.php(120): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 7 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+11 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+12 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+14 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+15 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:25:00 --> Undefined variable $request
+in APPPATH\Views\front\layouts\header.php on line 114.
+ 1 APPPATH\Views\front\layouts\header.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'APPPATH\\Views\\front\\layouts\\header.php', 114)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:25:48 --> Request URI segment is out of range: 1
+in SYSTEMPATH\HTTP\URI.php on line 529.
+ 1 SYSTEMPATH\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+ 2 APPPATH\Views\front\layouts\header.php(117): CodeIgniter\HTTP\URI->getSegment(1)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\header.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/header', null, true)
+ 6 APPPATH\Views\front\layouts\master.php(2): CodeIgniter\View\View->include('front/layouts/header')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+10 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+11 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+12 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+14 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:33:03 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\FrontendController.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\FrontendController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FrontendController')
+ 3 APPPATH\Controllers\Frontend\Home.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FrontendController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once('APPPATH\\Controllers\\Frontend\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 8 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 9 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:34:21 --> Undefined array key "slug"
+in APPPATH\Views\front\layouts\footer.php on line 55.
+ 1 APPPATH\Views\front\layouts\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'APPPATH\\Views\\front\\layouts\\footer.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/footer', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(9): CodeIgniter\View\View->include('front/layouts/footer')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:42:03 --> Undefined array key "slug"
+in APPPATH\Views\front\layouts\footer.php on line 55.
+ 1 APPPATH\Views\front\layouts\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'APPPATH\\Views\\front\\layouts\\footer.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/footer', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(9): CodeIgniter\View\View->include('front/layouts/footer')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:42:07 --> Undefined array key "slug"
+in APPPATH\Views\front\layouts\footer.php on line 55.
+ 1 APPPATH\Views\front\layouts\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'APPPATH\\Views\\front\\layouts\\footer.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/footer', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(9): CodeIgniter\View\View->include('front/layouts/footer')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 19:42:11 --> Undefined array key "slug"
+in APPPATH\Views\front\layouts\footer.php on line 55.
+ 1 APPPATH\Views\front\layouts\footer.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'APPPATH\\Views\\front\\layouts\\footer.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\footer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/layouts/footer', null, true)
+ 5 APPPATH\Views\front\layouts\master.php(9): CodeIgniter\View\View->include('front/layouts/footer')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\layouts\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 9 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+10 APPPATH\Controllers\Frontend\Home.php(100): view('front\\home', [...])
+11 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 20:07:48 --> Call to undefined function csrf_create()
+in APPPATH\Views\front\iletisim.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\iletisim', [], true)
+ 4 APPPATH\Controllers\Frontend\Home.php(140): view('front\\iletisim', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-14 20:11:09 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('sadsadsa@adsada...', '=?UTF-8?Q?dsads...', 'sda\r\n', 'Date: Sun, 14 A...', '-f johndoe@gmai...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(158): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-14 20:11:51 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('sadsadsa@adsada...', '=?UTF-8?Q?dsads...', 'sda\r\n', 'Date: Sun, 14 A...', '-f johndoe@gmai...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(158): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-14 20:12:03 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('bygrkm63@gmail....', '=?UTF-8?Q?test?...', 'test\r\n', 'Date: Sun, 14 A...', '-f johndoe@gmai...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(158): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-14 20:13:09 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('bygrkm63@gmail....', '=?UTF-8?Q?test?...', 'test\r\n', 'Date: Sun, 14 A...', '-f johndoe@gmai...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(158): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-14 20:22:27 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('bygrkm63@gmail....', '=?UTF-8?Q?test?...', 'test\r\n', 'Date: Sun, 14 A...', '-f johndoe@gmai...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(169): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-14 20:24:15 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('bygrkm63@gmail....', '=?UTF-8?Q?test?...', 'test\r\n', 'Date: Sun, 14 A...', '-f johndoe@gmai...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(169): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-14 20:27:55 --> Call to undefined method CodeIgniter\Email\Email::setSubject131322()
+in APPPATH\Controllers\Frontend\Home.php on line 167.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-14 20:28:01 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('bygrkm63@gmail....', '=?UTF-8?Q?test?...', 'test\r\n', 'Date: Sun, 14 A...', '-f johndoe@gmai...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(169): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-14 20:29:36 --> Undefined property: App\Controllers\Frontend\Home::$email
+in APPPATH\Controllers\Frontend\Home.php on line 164.
+ 1 APPPATH\Controllers\Frontend\Home.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Frontend\\Home::$email', 'APPPATH\\Controllers\\Frontend\\Home.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 20:29:37 --> Undefined property: App\Controllers\Frontend\Home::$email
+in APPPATH\Controllers\Frontend\Home.php on line 164.
+ 1 APPPATH\Controllers\Frontend\Home.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Frontend\\Home::$email', 'APPPATH\\Controllers\\Frontend\\Home.php', 164)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-14 20:29:44 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1868)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1868): stream_socket_enable_crypto(Resource id #142, true, 57)
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1764): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(170): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-14 20:30:15 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1868)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1868): stream_socket_enable_crypto(Resource id #142, true, 57)
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1764): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(170): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-14 20:30:43 --> Email: sendWithSmtp throwed ErrorException: stream_socket_enable_crypto(): SSL/TLS already set-up for this stream in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_e...', 'C:\\xampp\\htdocs...', 1868)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1868): stream_socket_enable_crypto(Resource id #142, true, 57)
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1764): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(170): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-14 20:41:48 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('bygrkm63@gmail....', '=?UTF-8?Q?test?...', 'test\r\n', 'Date: Sun, 14 A...', '-f johndoe@gmai...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(173): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-14 20:42:15 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php:1717
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1717)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1717): mail('bygrkm63@gmail....', '=?UTF-8?Q?test?...', 'test\r\n', 'Date: Sun, 14 A...', '-f bygrkm63@gma...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1654): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Email\Email.php(1552): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Frontend\Home.php(173): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-14 20:58:44 --> Call to undefined function App\Controllers\Frontend\library()
+in APPPATH\Controllers\Frontend\Home.php on line 152.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 20:59:08 --> Call to undefined function App\Libraries\SendMail()
+in APPPATH\Controllers\Frontend\Home.php on line 152.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 20:59:13 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH\Libraries\SendMail.php on line 11.
+ 1 APPPATH\Controllers\Frontend\Home.php(154): App\Libraries\SendMail->send()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-14 20:59:48 --> Class "App\Libraries\SMTP" not found
+in APPPATH\Libraries\SendMail.php on line 19.
+ 1 APPPATH\Controllers\Frontend\Home.php(154): App\Libraries\SendMail->send()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1959 @@
+CRITICAL - 2022-08-11 06:05:51 --> Undefined variable $settings
+in APPPATH\Views\back\profile\about.php on line 28.
+ 1 APPPATH\Views\back\profile\about.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\back\\profile\\about.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\profile\\about.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/profile/about', [], true)
+ 5 APPPATH\Controllers\Backend\Profile.php(12): view('back/profile/about', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Profile->about()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:12:55 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Settings.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Settings->public_settings_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:31:35 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Profile.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Profile->about_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:34:45 --> syntax error, unexpected variable "$fimg"
+in APPPATH\Controllers\Backend\Profile.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Profile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Profile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Profile')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Profile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:34:51 --> syntax error, unexpected variable "$fimg"
+in APPPATH\Controllers\Backend\Profile.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Profile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Profile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Profile')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Profile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:34:53 --> syntax error, unexpected variable "$fimg"
+in APPPATH\Controllers\Backend\Profile.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Profile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Profile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Profile')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Profile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:34:54 --> syntax error, unexpected variable "$fimg"
+in APPPATH\Controllers\Backend\Profile.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Profile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Profile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Profile')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Profile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:34:55 --> syntax error, unexpected variable "$fimg"
+in APPPATH\Controllers\Backend\Profile.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Profile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Profile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Profile')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Profile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:35:32 --> syntax error, unexpected variable "$fimg"
+in APPPATH\Controllers\Backend\Profile.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Profile.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Profile')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Profile')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Profile', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:42:02 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Backend\Profile.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Profile->about_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Profile))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:53:34 --> Undefined variable $user
+in APPPATH\Controllers\Backend\Profile.php on line 78.
+ 1 APPPATH\Controllers\Backend\Profile.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Backend\\Profile.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Profile->password_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:53:58 --> Undefined variable $user
+in APPPATH\Controllers\Backend\Profile.php on line 77.
+ 1 APPPATH\Controllers\Backend\Profile.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Backend\\Profile.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Profile->password_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 06:53:59 --> Undefined variable $user
+in APPPATH\Controllers\Backend\Profile.php on line 77.
+ 1 APPPATH\Controllers\Backend\Profile.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Backend\\Profile.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Profile->password_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Profile))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:45:42 --> Call to a member function insert() on null
+in APPPATH\Controllers\Backend\Corporate.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_ekle_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:46:08 --> Class "App\Models\SliderModel" not found
+in APPPATH\Controllers\Backend\Corporate.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_ekle_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:56:11 --> Call to undefined method App\Models\SlidersModel::data
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Backend\Corporate.php(19): CodeIgniter\Model->__call('data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:56:15 --> Call to undefined method App\Models\SlidersModel::list
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Backend\Corporate.php(19): CodeIgniter\Model->__call('list', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:00:33 --> Call to undefined method App\Models\SlidersModel::all
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Backend\Corporate.php(19): CodeIgniter\Model->__call('all', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:10:05 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Backend\Corporate.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Corporate.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Corporate')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Corporate')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Corporate', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:38:38 --> unlink(C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\public\images\slider\): Is a directory
+in APPPATH\Controllers\Backend\Corporate.php on line 171.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\satilik_temalar\\tema1\\codeigniter4\\public\\images\\slider\\): Is a directory', 'APPPATH\\Controllers\\Backend\\Corporate.php', 171)
+ 2 APPPATH\Controllers\Backend\Corporate.php(171): unlink('FCPATH\\public\\images\\slider')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_delete('11')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:51:38 --> unlink(C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\public\images\slider\): Is a directory
+in APPPATH\Controllers\Backend\Corporate.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\satilik_temalar\\tema1\\codeigniter4\\public\\images\\slider\\): Is a directory', 'APPPATH\\Controllers\\Backend\\Corporate.php', 176)
+ 2 APPPATH\Controllers\Backend\Corporate.php(176): unlink('FCPATH\\public\\images\\slider')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_delete('14')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:02:32 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+in APPPATH\Controllers\Backend\Corporate.php on line 188.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:02:46 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::param()
+in APPPATH\Controllers\Backend\Corporate.php on line 188.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:03:13 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+in APPPATH\Controllers\Backend\Corporate.php on line 188.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:03:45 --> Undefined property: App\Controllers\Backend\Corporate::$input
+in APPPATH\Controllers\Backend\Corporate.php on line 188.
+ 1 APPPATH\Controllers\Backend\Corporate.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Corporate::$input', 'APPPATH\\Controllers\\Backend\\Corporate.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:04:33 --> Undefined property: App\Controllers\Backend\Corporate::$input
+in APPPATH\Controllers\Backend\Corporate.php on line 188.
+ 1 APPPATH\Controllers\Backend\Corporate.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Corporate::$input', 'APPPATH\\Controllers\\Backend\\Corporate.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:04:42 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, array given, called in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\HTTP\IncomingRequest.php on line 503
+in SYSTEMPATH\HTTP\RequestTrait.php on line 217.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(503): CodeIgniter\HTTP\Request->fetchGlobal('request', 'slider', [], null)
+ 2 APPPATH\Controllers\Backend\Corporate.php(188): CodeIgniter\HTTP\IncomingRequest->getVar('slider', [])
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:04:55 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, array given, called in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\HTTP\IncomingRequest.php on line 588
+in SYSTEMPATH\HTTP\RequestTrait.php on line 217.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Request->fetchGlobal('get', 'slider', [], null)
+ 2 SYSTEMPATH\HTTP\IncomingRequest.php(619): CodeIgniter\HTTP\IncomingRequest->getGet('slider', [], null)
+ 3 APPPATH\Controllers\Backend\Corporate.php(188): CodeIgniter\HTTP\IncomingRequest->getPostGet('slider', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:05:02 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, array given, called in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\HTTP\IncomingRequest.php on line 588
+in SYSTEMPATH\HTTP\RequestTrait.php on line 217.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(588): CodeIgniter\HTTP\Request->fetchGlobal('get', 'slider', [], null)
+ 2 SYSTEMPATH\HTTP\IncomingRequest.php(619): CodeIgniter\HTTP\IncomingRequest->getGet('slider', [], null)
+ 3 APPPATH\Controllers\Backend\Corporate.php(188): CodeIgniter\HTTP\IncomingRequest->getPostGet('slider', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:05:46 --> Undefined property: App\Controllers\Backend\Corporate::$input
+in APPPATH\Controllers\Backend\Corporate.php on line 188.
+ 1 APPPATH\Controllers\Backend\Corporate.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Corporate::$input', 'APPPATH\\Controllers\\Backend\\Corporate.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:05:55 --> Undefined property: App\Controllers\Backend\Corporate::$input
+in APPPATH\Controllers\Backend\Corporate.php on line 188.
+ 1 APPPATH\Controllers\Backend\Corporate.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Corporate::$input', 'APPPATH\\Controllers\\Backend\\Corporate.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:08:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Backend\Corporate.php(194): CodeIgniter\Model->update('15', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:08:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Backend\Corporate.php(194): CodeIgniter\Model->update('10', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_siralama()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:19:57 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Backend\Corporate.php on line 206.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Corporate.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Corporate')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Corporate')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Corporate', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:20:30 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Backend\Corporate.php on line 213.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Corporate.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Corporate')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Corporate')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Corporate', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:22:59 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\slider.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(39): view('back/general/slider', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:36:40 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\slider.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(230): view('back/general/slider', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->faq()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 09:46:06 --> mysqli_sql_exception: Column 'star' cannot be null in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(666): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Corporate.php(31): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Corporate->customer_comments_add()
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 09:46:06 --> Column 'star' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `comments` (`name`, `subname`, `star`, `comment`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `comments` (`name`, `subname`, `star`, `comment`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `comments` (`name`, `subname`, `star`, `comment`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `comments` (`name`, `subname`, `star`, `comment`) VALUES (:name:, :subname:, :star:, :comment:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Backend\Corporate.php(31): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->customer_comments_add()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:55:18 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\customer_comments.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/customer_comments', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(15): view('back/general/customer_comments', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->customer_comments()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:55:38 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\customer_comments.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/customer_comments', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(15): view('back/general/customer_comments', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->customer_comments()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 09:56:02 --> Undefined array key "title"
+in APPPATH\Views\back\general\customer_comments.php on line 37.
+ 1 APPPATH\Views\back\general\customer_comments.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\back\\general\\customer_comments.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\general\\customer_comments.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/customer_comments', [], true)
+ 5 APPPATH\Controllers\Backend\Corporate.php(16): view('back/general/customer_comments', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->customer_comments()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:23:52 --> Call to undefined function App\Controllers\Backend\to()
+in APPPATH\Controllers\Backend\Corporate.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->customer_comments_add_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:25:53 --> Undefined array key "id"
+in APPPATH\Controllers\Backend\Corporate.php on line 330.
+ 1 APPPATH\Controllers\Backend\Corporate.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 330)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->slider_toggle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:31:27 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 167.
+ 1 APPPATH\Controllers\Backend\Corporate.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 167)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->customer_comments_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:31:47 --> Undefined array key "slider"
+in APPPATH\Controllers\Backend\Corporate.php on line 167.
+ 1 APPPATH\Controllers\Backend\Corporate.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slider"', 'APPPATH\\Controllers\\Backend\\Corporate.php', 167)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->customer_comments_siralama()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:32:55 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\slider.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(380): view('back/general/slider', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->about()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:36:59 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\slider.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(380): view('back/general/slider', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->about()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:39:41 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\slider.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(380): view('back/general/slider', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->about()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:39:57 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\slider.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(383): view('back/general/slider', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->team()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:40:00 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\slider.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(386): view('back/general/slider', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->faq()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:41:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\general\slider.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+ 4 APPPATH\Controllers\Backend\Corporate.php(386): view('back/general/slider', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->faq()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:48:53 --> Undefined variable $id
+in APPPATH\Controllers\Backend\Corporate.php on line 389.
+ 1 APPPATH\Controllers\Backend\Corporate.php(389): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Backend\\Corporate.php', 389)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->faq()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:57:46 --> Undefined property: App\Controllers\Backend\Corporate::$requst
+in APPPATH\Controllers\Backend\Corporate.php on line 415.
+ 1 APPPATH\Controllers\Backend\Corporate.php(415): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Corporate::$requst', 'APPPATH\\Controllers\\Backend\\Corporate.php', 415)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->faq_add_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 10:57:58 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::to(), 0 passed in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Corporate.php on line 418 and at least 1 expected
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Backend\Corporate.php(418): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Corporate->faq_add_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Corporate))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 13:32:50 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\media\photo_gallery.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/photo_gallery', [], true)
+ 4 APPPATH\Controllers\Backend\Media.php(13): view('back/media/photo_gallery', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 13:38:37 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\media\photo_gallery.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/photo_gallery', [], true)
+ 4 APPPATH\Controllers\Backend\Media.php(13): view('back/media/photo_gallery', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 13:38:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\media\photo_gallery.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/photo_gallery', [], true)
+ 4 APPPATH\Controllers\Backend\Media.php(13): view('back/media/photo_gallery', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 13:43:13 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\media\photo_gallery.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/photo_gallery', [], true)
+ 4 APPPATH\Controllers\Backend\Media.php(13): view('back/media/photo_gallery', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 14:32:56 --> strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given
+in APPPATH\Views\back\media\photo_gallery.php on line 26.
+ 1 APPPATH\Views\back\media\photo_gallery.php(26): strtotime('d m Y', '2022-08-11 22:30:38')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\media\\photo_gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/photo_gallery', [], true)
+ 5 APPPATH\Controllers\Backend\Media.php(17): view('back/media/photo_gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 14:44:02 --> Undefined variable $videos
+in APPPATH\Views\back\media\video_gallery.php on line 31.
+ 1 APPPATH\Views\back\media\video_gallery.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videos', 'APPPATH\\Views\\back\\media\\video_gallery.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\media\\video_gallery.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/video_gallery', [], true)
+ 5 APPPATH\Controllers\Backend\Media.php(87): view('back/media/video_gallery', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->video_gallery()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 14:49:05 --> Undefined variable $settings
+in APPPATH\Views\back\media\video_gallery_add.php on line 19.
+ 1 APPPATH\Views\back\media\video_gallery_add.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\back\\media\\video_gallery_add.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\media\\video_gallery_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/video_gallery_add', [], true)
+ 5 APPPATH\Controllers\Backend\Media.php(103): view('back/media/video_gallery_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->video_gallery_add()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 15:07:21 --> Undefined variable $item
+in APPPATH\Views\back\media\video_gallery_edit.php on line 7.
+ 1 APPPATH\Views\back\media\video_gallery_edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'APPPATH\\Views\\back\\media\\video_gallery_edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\media\\video_gallery_edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/video_gallery_edit', [], true)
+ 5 APPPATH\Controllers\Backend\Media.php(149): view('back/media/video_gallery_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->video_gallery_edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 15:08:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Backend\Media.php(167): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->video_gallery_edit_post('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 15:09:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Backend\Media.php(167): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->video_gallery_edit_post('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 15:09:36 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1577.
+ 1 SYSTEMPATH\BaseModel.php(1577): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Backend\Media.php(167): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->video_gallery_edit_post('2')
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 16:39:36 --> Call to undefined function App\Models\ServicesModel()
+in APPPATH\Controllers\Backend\Services.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 16:40:26 --> Call to undefined function App\Controllers\Backend\App\Models\ServicesModel()
+in APPPATH\Controllers\Backend\Services.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 16:40:48 --> Call to undefined function App\Models\ServicesModel()
+in APPPATH\Controllers\Backend\Services.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 16:40:49 --> Call to undefined function App\Models\ServicesModel()
+in APPPATH\Controllers\Backend\Services.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 16:41:02 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 392.
+ 1 APPPATH\Views\back\services\index.php(67): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(16): view('back/services/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:01:20 --> Undefined property: App\Controllers\Backend\Services::$load
+in APPPATH\Controllers\Backend\Services.php on line 24.
+ 1 APPPATH\Controllers\Backend\Services.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Services::$load', 'APPPATH\\Controllers\\Backend\\Services.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:01:26 --> Call to undefined function get_instance()
+in APPPATH\Helpers\site_helper.php on line 6.
+ 1 APPPATH\Controllers\Backend\Services.php(26): create_slug('asfa fs afsa f af afsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:01:40 --> Call to undefined function get_instance()
+in APPPATH\Helpers\site_helper.php on line 6.
+ 1 APPPATH\Controllers\Backend\Services.php(26): create_slug('asfa fs afsa f af afsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:02:45 --> Using $this when not in object context
+in APPPATH\Helpers\site_helper.php on line 7.
+ 1 APPPATH\Controllers\Backend\Services.php(26): create_slug('asfa fs afsa f af afsa')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:03:40 --> Using $this when not in object context
+in APPPATH\Helpers\site_helper.php on line 8.
+ 1 APPPATH\Controllers\Backend\Services.php(26): create_slug('fadashfsdashafsadashfdashafdashaf')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:07:13 --> syntax error, unexpected variable "$string"
+in APPPATH\Helpers\site_helper.php on line 8.
+ 1 APPPATH\Controllers\Backend\Services.php(24): helper([...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:08:07 --> Call to undefined function convert_accented_characters()
+in APPPATH\Helpers\site_helper.php on line 13.
+ 1 APPPATH\Controllers\Backend\Services.php(26): create_slug('hello world how are you')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:13:28 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::with(), 1 passed in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Services.php on line 29 and exactly 2 expected
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 134.
+ 1 APPPATH\Controllers\Backend\Services.php(29): CodeIgniter\HTTP\RedirectResponse->with('Başlık alanını doldurunuz.')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:14:40 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 APPPATH\Views\back\services\insert_service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\back\\services\\insert_service.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\insert_service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(19): view('back/services/insert_service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:15:19 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 APPPATH\Views\back\services\insert_service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\back\\services\\insert_service.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\insert_service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(19): view('back/services/insert_service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:15:20 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 APPPATH\Views\back\services\insert_service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\back\\services\\insert_service.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\insert_service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(19): view('back/services/insert_service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:15:37 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 APPPATH\Views\back\services\insert_service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\back\\services\\insert_service.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\insert_service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(19): view('back/services/insert_service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:16:07 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 APPPATH\Views\back\services\insert_service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\back\\services\\insert_service.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\insert_service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(23): view('back/services/insert_service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:16:08 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 APPPATH\Views\back\services\insert_service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\back\\services\\insert_service.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\insert_service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(23): view('back/services/insert_service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:16:23 --> Cannot call constructor
+in APPPATH\Controllers\LoggedController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\LoggedController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:17:18 --> Too few arguments to function App\Controllers\BaseController::initController(), 0 passed in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\LoggedController.php on line 21 and exactly 3 expected
+in APPPATH\Controllers\BaseController.php on line 43.
+ 1 APPPATH\Controllers\LoggedController.php(21): App\Controllers\BaseController->initController()
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\LoggedController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:17:45 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 APPPATH\Views\back\services\insert_service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\back\\services\\insert_service.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\insert_service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(21): view('back/services/insert_service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:17:51 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 APPPATH\Views\back\services\insert_service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\back\\services\\insert_service.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\insert_service.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(21): view('back/services/insert_service', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:19:07 --> Call to undefined function set_value()
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 4 APPPATH\Controllers\Backend\Services.php(21): view('back/services/insert_service', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:19:41 --> Call to undefined function set_value()
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 4 APPPATH\Controllers\Backend\Services.php(24): view('back/services/insert_service', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:19:42 --> Call to undefined function set_value()
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 4 APPPATH\Controllers\Backend\Services.php(24): view('back/services/insert_service', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:19:56 --> Call to undefined function set_value()
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 4 APPPATH\Controllers\Backend\Services.php(25): view('back/services/insert_service', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:19:57 --> Call to undefined function set_value()
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 4 APPPATH\Controllers\Backend\Services.php(25): view('back/services/insert_service', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:20:22 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+14 APPPATH\Controllers\Backend\Services.php(24): view('back/services/insert_service', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:20:28 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+14 APPPATH\Controllers\Backend\Services.php(21): view('back/services/index', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:20:29 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+14 APPPATH\Controllers\Backend\Services.php(24): view('back/services/insert_service', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:21:04 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+14 APPPATH\Controllers\Backend\Services.php(21): view('back/services/index', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:21:05 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+14 APPPATH\Controllers\Backend\Services.php(24): view('back/services/insert_service', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:21:06 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+14 APPPATH\Controllers\Backend\Services.php(21): view('back/services/index', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:21:17 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+14 APPPATH\Controllers\Backend\Services.php(21): view('back/services/index', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:21:17 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+14 APPPATH\Controllers\Backend\Services.php(21): view('back/services/index', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:21:19 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+14 APPPATH\Controllers\Backend\Services.php(24): view('back/services/insert_service', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:21:24 --> Call to undefined function set_value()
+in APPPATH\Views\back\services\insert_service.php on line 56.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 4 APPPATH\Controllers\Backend\Services.php(22): view('back/services/insert_service', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:21:29 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+14 APPPATH\Controllers\Backend\Services.php(24): view('back/services/insert_service', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:22:04 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+14 APPPATH\Controllers\Backend\Services.php(25): view('back/services/insert_service', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:22:05 --> Undefined variable $user
+in APPPATH\Views\back\layouts\navbar.php on line 110.
+ 1 APPPATH\Views\back\layouts\navbar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\back\\layouts\\navbar.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/navbar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(56): CodeIgniter\View\View->include('back/layouts/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+14 APPPATH\Controllers\Backend\Services.php(25): view('back/services/insert_service', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:26:28 --> Undefined variable $title
+in APPPATH\Views\back\layouts\master.php on line 8.
+ 1 APPPATH\Views\back\layouts\master.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\back\\layouts\\master.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/insert_service', [], true)
+ 6 APPPATH\Controllers\Backend\Services.php(38): view('back/services/insert_service')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_post()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:50:40 --> Call to undefined function App\Controllers\Backend\create_slug()
+in APPPATH\Controllers\Backend\Services.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_edit_post('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:59:21 --> Undefined array key "active"
+in APPPATH\Views\back\services\index.php on line 38.
+ 1 APPPATH\Views\back\services\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "active"', 'APPPATH\\Views\\back\\services\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(24): view('back/services/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 17:59:50 --> Undefined array key "active"
+in APPPATH\Views\back\services\index.php on line 38.
+ 1 APPPATH\Views\back\services\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "active"', 'APPPATH\\Views\\back\\services\\index.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(24): view('back/services/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 18:08:22 --> strip_tags() expects at most 2 arguments, 3 given
+in APPPATH\Views\back\services\index.php on line 41.
+ 1 APPPATH\Views\back\services\index.php(41): strip_tags('<p>saddadsada</p>', 0, 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(24): view('back/services/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 18:37:10 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Backend\Services.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Services.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Services')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Services')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Services', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 18:37:41 --> Call to undefined method App\Models\ServicesModel::where_in
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Backend\Services.php(22): CodeIgniter\Model->__call('where_in', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 18:39:14 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+in APPPATH\Controllers\Backend\Services.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 18:41:59 --> Undefined array key "status"
+in APPPATH\Controllers\Backend\Services.php on line 21.
+ 1 APPPATH\Controllers\Backend\Services.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Controllers\\Backend\\Services.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 18:46:28 --> Call to undefined method App\Models\ServicesModel::count
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Backend\Services.php(43): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 18:49:41 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Views\back\services\index.php on line 20.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+ 3 APPPATH\Controllers\Backend\Services.php(47): view('back/services/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 18:54:21 --> Undefined array key "date"
+in APPPATH\Views\back\services\index.php on line 107.
+ 1 APPPATH\Views\back\services\index.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'APPPATH\\Views\\back\\services\\index.php', 107)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\services\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/services/index', [], true)
+ 5 APPPATH\Controllers\Backend\Services.php(47): view('back/services/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 19:05:04 --> syntax error, unexpected token "->"
+in APPPATH\Models\ServicesModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ServicesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ServicesModel')
+ 3 APPPATH\Controllers\Backend\Services.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ServicesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 19:05:18 --> syntax error, unexpected token "->"
+in APPPATH\Models\ServicesModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ServicesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ServicesModel')
+ 3 APPPATH\Controllers\Backend\Services.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ServicesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 19:05:23 --> syntax error, unexpected token "->"
+in APPPATH\Models\ServicesModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ServicesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ServicesModel')
+ 3 APPPATH\Controllers\Backend\Services.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ServicesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 19:05:41 --> syntax error, unexpected token "->"
+in APPPATH\Models\ServicesModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ServicesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ServicesModel')
+ 3 APPPATH\Controllers\Backend\Services.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ServicesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 19:05:44 --> syntax error, unexpected token "->"
+in APPPATH\Models\ServicesModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\ServicesModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ServicesModel')
+ 3 APPPATH\Controllers\Backend\Services.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ServicesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 19:09:47 --> Call to undefined method App\Models\ServicesModel::remove
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Backend\Services.php(57): CodeIgniter\Model->__call('remove', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->insert_service_trash('1')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 19:27:00 --> Undefined property: App\Controllers\Backend\Services::$input
+in APPPATH\Controllers\Backend\Services.php on line 39.
+ 1 APPPATH\Controllers\Backend\Services.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Services::$input', 'APPPATH\\Controllers\\Backend\\Services.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 19:27:10 --> Undefined property: App\Controllers\Backend\Services::$input
+in APPPATH\Controllers\Backend\Services.php on line 40.
+ 1 APPPATH\Controllers\Backend\Services.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Services::$input', 'APPPATH\\Controllers\\Backend\\Services.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 20:11:27 --> Invalid file: back/pages/pages.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/pages/pages.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/pages/pages', [], true)
+ 3 APPPATH\Controllers\Backend\Pages.php(13): view('back/pages/pages', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Pages->pages()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 20:31:25 --> Undefined array key "footer"
+in APPPATH\Views\back\setting\public_setting.php on line 65.
+ 1 APPPATH\Views\back\setting\public_setting.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "footer"', 'APPPATH\\Views\\back\\setting\\public_setting.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\setting\\public_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/setting/public_setting', [], true)
+ 5 APPPATH\Controllers\Backend\Settings.php(57): view('back/setting/public_setting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Settings->public_settings()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 21:01:21 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `serv...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `serv...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `serv...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `serv...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\ServicesModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Services.php(40): App\Models\ServicesModel->GetServicesWithUser(Array, NULL)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 21:01:21 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN :publish:
+ORDER BY `id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ServicesModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Services.php(40): App\Models\ServicesModel->GetServicesWithUser([...], null)
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 21:01:36 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `serv...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `serv...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `serv...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `serv...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\ServicesModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Services.php(40): App\Models\ServicesModel->GetServicesWithUser(Array, NULL)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 21:01:36 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN :publish:
+ORDER BY `id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ServicesModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Services.php(40): App\Models\ServicesModel->GetServicesWithUser([...], null)
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 21:01:37 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `serv...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `serv...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `serv...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `serv...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\ServicesModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Services.php(40): App\Models\ServicesModel->GetServicesWithUser(Array, NULL)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 21:01:37 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN :publish:
+ORDER BY `id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ServicesModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Services.php(40): App\Models\ServicesModel->GetServicesWithUser([...], null)
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 21:01:54 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `serv...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `serv...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `serv...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `serv...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\ServicesModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Services.php(40): App\Models\ServicesModel->GetServicesWithUser(Array, NULL)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 21:01:54 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `id` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `services`.`id` as `servisid`
+FROM `services`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN :publish:
+ORDER BY `id` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ServicesModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Services.php(40): App\Models\ServicesModel->GetServicesWithUser([...], null)
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Services->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Services))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 21:04:30 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\Backend\Services.php on line 162.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Services.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Services')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Services')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Services', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 21:11:40 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\event\index.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/event/index', [], true)
+ 4 APPPATH\Controllers\Backend\Events.php(13): view('back/event/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Events->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Events))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 21:13:08 --> mysqli_sql_exception: Unknown column 'services.id' in 'field list' in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `serv...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `serv...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `serv...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `serv...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\EventsModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Events.php(38): App\Models\EventsModel->GetEventsWithUser(Array, NULL)
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Events->index()
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Events))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 21:13:08 --> Unknown column 'services.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `services`.`id` as `servisid`
+FROM `events`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `services`.`id` as `servisid`
+FROM `events`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `services`.`id` as `servisid`
+FROM `events`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN (\'0\',\'1\')
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `services`.`id` as `servisid`
+FROM `events`
+LEFT JOIN `users` ON `users`.`id` = `services`.`userid`
+WHERE `publish` IN :publish:
+ORDER BY `created_at` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EventsModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Events.php(38): App\Models\EventsModel->GetEventsWithUser([...], null)
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Events->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Events))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 21:23:53 --> Class "App\Models\EventModel" not found
+in APPPATH\Controllers\Backend\Events.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Events->insert_event_edit_post('1')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Events))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 21:51:51 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\back\blog\index.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/index', [], true)
+ 4 APPPATH\Controllers\Backend\Blog.php(13): view('back/blog/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 21:52:50 --> Call to undefined method App\Models\BlogModel::getEventsWithUser
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Backend\Blog.php(36): CodeIgniter\Model->__call('getEventsWithUser', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:06:50 --> Undefined variable $category
+in APPPATH\Views\back\blog\insert_blog.php on line 56.
+ 1 APPPATH\Views\back\blog\insert_blog.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Views\\back\\blog\\insert_blog.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\blog\\insert_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/insert_blog', [], true)
+ 5 APPPATH\Controllers\Backend\Blog.php(47): view('back/blog/insert_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:06:52 --> Undefined variable $category
+in APPPATH\Views\back\blog\insert_blog.php on line 56.
+ 1 APPPATH\Views\back\blog\insert_blog.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Views\\back\\blog\\insert_blog.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\blog\\insert_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/insert_blog', [], true)
+ 5 APPPATH\Controllers\Backend\Blog.php(47): view('back/blog/insert_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:08:15 --> Undefined variable $blogModel
+in APPPATH\Controllers\Backend\Blog.php on line 50.
+ 1 APPPATH\Controllers\Backend\Blog.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogModel', 'APPPATH\\Controllers\\Backend\\Blog.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:14:58 --> Undefined array key "date"
+in APPPATH\Views\back\blog\index.php on line 99.
+ 1 APPPATH\Views\back\blog\index.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'APPPATH\\Views\\back\\blog\\index.php', 99)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\blog\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/index', [], true)
+ 5 APPPATH\Controllers\Backend\Blog.php(44): view('back/blog/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:20:01 --> foreach() argument must be of type array|object, string given
+in APPPATH\Controllers\Backend\Blog.php on line 99.
+ 1 APPPATH\Controllers\Backend\Blog.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Controllers\\Backend\\Blog.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:23:02 --> Undefined variable $eventsModel
+in APPPATH\Controllers\Backend\Blog.php on line 124.
+ 1 APPPATH\Controllers\Backend\Blog.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventsModel', 'APPPATH\\Controllers\\Backend\\Blog.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:23:07 --> Undefined variable $event
+in APPPATH\Views\back\blog\edit_blog.php on line 9.
+ 1 APPPATH\Views\back\blog\edit_blog.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $event', 'APPPATH\\Views\\back\\blog\\edit_blog.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\blog\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/edit_blog', [], true)
+ 5 APPPATH\Controllers\Backend\Blog.php(130): view('back/blog/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:24:42 --> Undefined variable $category
+in APPPATH\Views\back\blog\edit_blog.php on line 65.
+ 1 APPPATH\Views\back\blog\edit_blog.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'APPPATH\\Views\\back\\blog\\edit_blog.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\blog\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/edit_blog', [], true)
+ 5 APPPATH\Controllers\Backend\Blog.php(130): view('back/blog/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 22:30:19 --> mysqli_sql_exception: Unknown column 'blog_categories' in 'field list' in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `blog...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `blog...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `blog...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `blog...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\BlogCategoryJoinModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Blog.php(129): App\Models\BlogCategoryJoinModel->getList('5')
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 22:30:20 --> Unknown column 'blog_categories' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories` `bccid`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories` `bccid`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories` `bccid`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories` `bccid`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = :blogid:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BlogCategoryJoinModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Blog.php(129): App\Models\BlogCategoryJoinModel->getList('5')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 22:31:12 --> mysqli_sql_exception: Unknown column 'blog_categories' in 'field list' in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `blog...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `blog...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `blog...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `blog...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\BlogCategoryJoinModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Blog.php(129): App\Models\BlogCategoryJoinModel->getList('5')
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 22:31:12 --> Unknown column 'blog_categories' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories` `bccid`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories` `bccid`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories` `bccid`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories` `bccid`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = :blogid:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BlogCategoryJoinModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Blog.php(129): App\Models\BlogCategoryJoinModel->getList('5')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 22:31:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory...' at line 1 in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `blog...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `blog...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `blog...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `blog...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\BlogCategoryJoinModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Blog.php(129): App\Models\BlogCategoryJoinModel->getList('5')
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 22:31:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories`.`id` `bccid`, `blogcategory`.* as `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories`.`id` `bccid`, `blogcategory`.* as `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories`.`id` `bccid`, `blogcategory`.* as `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories`.`id` `bccid`, `blogcategory`.* as `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = :blogid:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BlogCategoryJoinModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Blog.php(129): App\Models\BlogCategoryJoinModel->getList('5')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 22:31:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`...' at line 1 in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `blog...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `blog...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `blog...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `blog...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\BlogCategoryJoinModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Blog.php(129): App\Models\BlogCategoryJoinModel->getList('5')
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 22:31:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories`.`id` `bccid`, `blogcategory`.* `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories`.`id` `bccid`, `blogcategory`.* `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories`.`id` `bccid`, `blogcategory`.* `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `blogcategory`.`id` as `bcid`, `blog_categories`.`id` `bccid`, `blogcategory`.* `test`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = :blogid:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BlogCategoryJoinModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Blog.php(129): App\Models\BlogCategoryJoinModel->getList('5')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:37:05 --> Call to undefined function App\Controllers\Backend\array_in()
+in APPPATH\Controllers\Backend\Blog.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit('5')
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:50:52 --> Declaration of App\Models\BlogCategoryJoinModel::delete($blogid) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\BlogCategoryJoinModel.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-11 22:57:34 --> Call to undefined method App\Models\BlogCategoryJoinModel::deleteCategories
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\Backend\Blog.php(189): CodeIgniter\Model->__call('deleteCategories', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit_post('5')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 22:57:47 --> Undefined variable $id
+in APPPATH\Models\BlogCategoryJoinModel.php on line 22.
+ 1 APPPATH\Models\BlogCategoryJoinModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\BlogCategoryJoinModel.php', 22)
+ 2 APPPATH\Controllers\Backend\Blog.php(189): App\Models\BlogCategoryJoinModel->deleteBlogCategories('5')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit_post('5')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 23:01:51 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Backend\Blog.php on line 193.
+ 1 APPPATH\Controllers\Backend\Blog.php(193): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->insert_blog_edit_post('4')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 23:13:59 --> mysqli_sql_exception: Unknown column 'blogid' in 'where clause' in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Blog.php(40): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Blog->index()
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-08-11 23:14:00 --> Unknown column 'blogid' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `blog_categories`
+WHERE `blogid` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `blog_categories`
+WHERE `blogid` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `blog_categories`
+WHERE `blogid` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blog_categories`
+WHERE `blogid` = :blogid:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Backend\Blog.php(40): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->index()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 23:15:33 --> mysqli_sql_exception: Column 'title' in field list is ambiguous in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categor...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categor...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categor...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\BlogCategoryJoinModel.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Blog.php(40): App\Models\BlogCategoryJoinModel->getCategories('1')
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Blog->index()
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 23:15:33 --> Column 'title' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `categoryid`, `title`, `slug`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `categoryid`, `title`, `slug`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `categoryid`, `title`, `slug`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categoryid`, `title`, `slug`
+FROM `blogcategory`
+LEFT JOIN `blog` ON `blog`.`id` = `blogcategory`.`blogid`
+LEFT JOIN `blog_categories` ON `blog_categories`.`id` = `blogcategory`.`categoryid`
+WHERE `blogid` = :blogid:', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BlogCategoryJoinModel.php(25): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Blog.php(40): App\Models\BlogCategoryJoinModel->getCategories('1')
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->index()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 23:20:56 --> Invalid file: back/blog/categories.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/blog/categories.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/categories', [], true)
+ 3 APPPATH\Controllers\Backend\Blog.php(312): view('back/blog/categories', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->categories()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 23:26:41 --> syntax error, unexpected token ";"
+in APPPATH\Views\back\blog\categories.php on line 15.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/categories', [], true)
+ 3 APPPATH\Controllers\Backend\Blog.php(312): view('back/blog/categories', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->categories()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 23:49:25 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Backend\Blog.php(360): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->toggle_category()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 23:49:33 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Backend\Blog.php(360): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->toggle_category()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 23:50:00 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Backend\Blog.php(360): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->toggle_category()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 23:50:02 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Backend\Blog.php(360): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->toggle_category()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 23:50:26 --> Call to undefined method App\Controllers\Backend\Blog::respond()
+in APPPATH\Controllers\Backend\Blog.php on line 361.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->toggle_category()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

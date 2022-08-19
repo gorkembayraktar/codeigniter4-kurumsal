@@ -1,0 +1,61 @@
+ERROR - 2022-08-12 00:00:12 --> mysqli_sql_exception: Column 'id' in field list is ambiguous in C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, co...', 0)
+#1 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, co...')
+#2 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, co...')
+#3 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, co...', Array, false)
+#4 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Models\BlogCategoryModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\app\Controllers\Backend\Blog.php(314): App\Models\BlogCategoryModel->CategoryWithBlogCount()
+#8 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(898): App\Controllers\Backend\Blog->categories()
+#9 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+#10 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\satilik_temalar\tema1\codeigniter4\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-12 00:00:13 --> Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, count(blogcategory.categoryid) as total
+FROM `blog_categories`
+LEFT JOIN `blogcategory` ON `blogcategory`.`categoryid` = `blog_categories`.`id`
+GROUP BY `blogcategory`.`categoryid`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, count(blogcategory.categoryid) as total
+FROM `blog_categories`
+LEFT JOIN `blogcategory` ON `blogcategory`.`categoryid` = `blog_categories`.`id`
+GROUP BY `blogcategory`.`categoryid`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, count(blogcategory.categoryid) as total
+FROM `blog_categories`
+LEFT JOIN `blogcategory` ON `blogcategory`.`categoryid` = `blog_categories`.`id`
+GROUP BY `blogcategory`.`categoryid`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id`, count(blogcategory.categoryid) as total
+FROM `blog_categories`
+LEFT JOIN `blogcategory` ON `blogcategory`.`categoryid` = `blog_categories`.`id`
+GROUP BY `blogcategory`.`categoryid`', [], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\BlogCategoryModel.php(19): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Backend\Blog.php(314): App\Models\BlogCategoryModel->CategoryWithBlogCount()
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->categories()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 00:00:25 --> Undefined array key "title"
+in APPPATH\Views\back\blog\categories.php on line 49.
+ 1 APPPATH\Views\back\blog\categories.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\back\\blog\\categories.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\blog\\categories.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/blog/categories', [], true)
+ 5 APPPATH\Controllers\Backend\Blog.php(316): view('back/blog/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->categories()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-12 00:06:09 --> syntax error, unexpected token "return"
+in APPPATH\Models\BlogCategoryJoinModel.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\BlogCategoryJoinModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\BlogCategoryJoinModel')
+ 3 APPPATH\Controllers\Backend\Blog.php(38): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\BlogCategoryJoinModel')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Blog->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Blog))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

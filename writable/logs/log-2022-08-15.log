@@ -1,0 +1,81 @@
+CRITICAL - 2022-08-15 02:43:12 --> preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated
+in APPPATH\Libraries\PHPMailer\src\PHPMailer.php on line 1292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated', 'APPPATH\\Libraries\\PHPMailer\\src\\PHPMailer.php', 1292)
+ 2 APPPATH\Libraries\PHPMailer\src\PHPMailer.php(1292): preg_replace('/[\\r\\n]+/', 'C:\\xampp\\htdocs\\satilik_temalar\\tema1\\codeigniter4', null)
+ 3 APPPATH\Libraries\SendMail.php(53): PHPMailer\PHPMailer\PHPMailer->setFrom('C:\\xampp\\htdocs\\satilik_temalar\\tema1\\codeigniter4', null)
+ 4 APPPATH\Controllers\Frontend\Home.php(163): App\Libraries\SendMail->send('Merhaba nasılsın.', '<b>alan adı</b>')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 02:44:06 --> Call to undefined method App\Libraries\SendMail::addAdress()
+in APPPATH\Controllers\Frontend\Home.php on line 163.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 18:53:46 --> Undefined variable $find
+in APPPATH\Controllers\Backend\Settings.php on line 173.
+ 1 APPPATH\Controllers\Backend\Settings.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $find', 'APPPATH\\Controllers\\Backend\\Settings.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Settings->mail_setting()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 18:53:57 --> Undefined variable $settings
+in APPPATH\Views\back\setting\mail_setting.php on line 25.
+ 1 APPPATH\Views\back\setting\mail_setting.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $settings', 'APPPATH\\Views\\back\\setting\\mail_setting.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\setting\\mail_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/setting/mail_setting', [], true)
+ 5 APPPATH\Controllers\Backend\Settings.php(173): view('back/setting/mail_setting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Settings->mail_setting()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 19:08:05 --> Call to a member function find() on null
+in APPPATH\Controllers\Backend\Settings.php on line 180.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Settings->mail_setting_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 19:10:42 --> Undefined variable $data
+in APPPATH\Controllers\Backend\Settings.php on line 177.
+ 1 APPPATH\Controllers\Backend\Settings.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Backend\\Settings.php', 177)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Settings->mail_setting()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 19:54:08 --> Undefined property: stdClass::$city
+in APPPATH\Controllers\Frontend\Home.php on line 194.
+ 1 APPPATH\Controllers\Frontend\Home.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$city', 'APPPATH\\Controllers\\Frontend\\Home.php', 194)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 19:55:38 --> Call to undefined function App\Controllers\Frontend\strtodate()
+in APPPATH\Controllers\Frontend\Home.php on line 214.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 19:56:22 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Frontend\Home.php(214): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-15 20:08:10 --> Undefined array key "reply"
+in APPPATH\Views\back\setting\mail_setting.php on line 53.
+ 1 APPPATH\Views\back\setting\mail_setting.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "reply"', 'APPPATH\\Views\\back\\setting\\mail_setting.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\setting\\mail_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/setting/mail_setting', [], true)
+ 5 APPPATH\Controllers\Backend\Settings.php(177): view('back/setting/mail_setting', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Settings->mail_setting()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Settings))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,862 @@
+CRITICAL - 2022-08-08 10:12:55 --> Invalid file: homepage.index
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepage.index')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage.index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('homepage.index')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:13:07 --> Invalid file: homepage.index
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepage.index')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage.index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('homepage.index')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:13:24 --> Invalid file: homepage.index
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepage.index')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage.index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('homepage.index')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:13:25 --> Invalid file: homepage.index
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepage.index')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage.index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('homepage.index')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:13:25 --> Invalid file: homepage.index
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepage.index')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage.index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('homepage.index')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:20:01 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\default.php on line 2.
+ 1 APPPATH\Views\default.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\default.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage\\index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('homepage\\index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:20:25 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\default.php on line 2.
+ 1 APPPATH\Views\default.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\default.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage\\index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('homepage\\index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:20:25 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\default.php on line 2.
+ 1 APPPATH\Views\default.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\default.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage\\index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('homepage\\index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:21:49 --> Invalid file: homepage\index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepage\\index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('homepage\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:21:50 --> Invalid file: homepage\index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('homepage\\index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('homepage\\index', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('homepage\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:22:06 --> Invalid file: default.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 4 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:23:10 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\front\default.php on line 2.
+ 1 APPPATH\Views\front\default.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\front\\default.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\default', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:23:11 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\front\default.php on line 2.
+ 1 APPPATH\Views\front\default.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\front\\default.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\default', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:23:12 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\front\default.php on line 2.
+ 1 APPPATH\Views\front\default.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\front\\default.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\default.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\default', [], true)
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:23:19 --> Invalid file: Views\front\default.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\front\\default.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Views\\front\\default', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 4 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:25:00 --> Invalid file: Views\front\default.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\front\\default.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Views\\front\\default', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 4 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:25:22 --> Invalid file: Views\front\default.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\front\\default.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Views\\front\\default', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 4 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:25:23 --> Invalid file: Views\front\default.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\front\\default.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Views\\front\\default', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 4 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:26:12 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\default.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-08 10:26:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\default.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-08-08 10:26:47 --> Invalid file: front.layouts.header
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front.layouts.header')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front.layouts.header', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:36:48 --> Invalid file: front\layoutsooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\layoutsooter.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\layoutsooter', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:36:48 --> Invalid file: front\layoutsooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\layoutsooter.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\layoutsooter', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:38:46 --> Invalid file: front\layoutsooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\layoutsooter.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\layoutsooter', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:38:46 --> Invalid file: front\layoutsooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\layoutsooter.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\layoutsooter', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:38:47 --> Invalid file: front\layoutsooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\layoutsooter.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\layoutsooter', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:38:47 --> Invalid file: front\layoutsooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\layoutsooter.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\layoutsooter', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:38:49 --> Invalid file: front\layoutsooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\layoutsooter.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\layoutsooter', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:40:21 --> Invalid file: front\layoutsooter.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\layoutsooter.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front\\layoutsooter', [], true)
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('default', [], true)
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\homepage\\index', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('front\\homepage\\index')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 10:46:12 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\front\home.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 4 APPPATH\Controllers\Home.php(10): view('front\\home')
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-08 11:18:45 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\front\home.php on line 7.
+ 1 APPPATH\Views\front\home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\front\\home.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\home', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('front\\home')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 11:33:13 --> Undefined variable $tester
+in APPPATH\Views\front\widgets\page_title_section.php on line 5.
+ 1 APPPATH\Views\front\widgets\page_title_section.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tester', 'APPPATH\\Views\\front\\widgets\\page_title_section.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\page_title_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/page_title_section', [...], true)
+ 5 APPPATH\Views\front\about.php(6): CodeIgniter\View\View->include('front/widgets/page_title_section', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\about.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\about', [], true)
+ 9 APPPATH\Controllers\Home.php(15): view('front\\about')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->hakkimizda()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 11:33:21 --> Undefined variable $data
+in APPPATH\Views\front\widgets\page_title_section.php on line 5.
+ 1 APPPATH\Views\front\widgets\page_title_section.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\front\\widgets\\page_title_section.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\page_title_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/page_title_section', [...], true)
+ 5 APPPATH\Views\front\about.php(6): CodeIgniter\View\View->include('front/widgets/page_title_section', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\about.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\about', [], true)
+ 9 APPPATH\Controllers\Home.php(15): view('front\\about')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->hakkimizda()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 11:33:22 --> Undefined variable $data
+in APPPATH\Views\front\widgets\page_title_section.php on line 5.
+ 1 APPPATH\Views\front\widgets\page_title_section.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\front\\widgets\\page_title_section.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\widgets\\page_title_section.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('front/widgets/page_title_section', [...], true)
+ 5 APPPATH\Views\front\about.php(6): CodeIgniter\View\View->include('front/widgets/page_title_section', [...])
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\about.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\about', [], true)
+ 9 APPPATH\Controllers\Home.php(15): view('front\\about')
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->hakkimizda()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 12:04:26 --> Invalid file: front\iletisim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front\\iletisim.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\iletisim', [], true)
+ 3 APPPATH\Controllers\Home.php(38): view('front\\iletisim', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->iletisim()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 12:16:05 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\front\layouts\master.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\events', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front\\events', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->events()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 12:16:07 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\front\layouts\master.php on line 19.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\events', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front\\events', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->events()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 12:16:20 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\front\layouts\master.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('front/layouts/master', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\events', [], true)
+ 4 APPPATH\Controllers\Home.php(48): view('front\\events', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->events()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 14:43:38 --> syntax error, unexpected token "{"
+in APPPATH\Config\Routes.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 14:43:41 --> syntax error, unexpected token "{"
+in APPPATH\Config\Routes.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 14:43:56 --> syntax error, unexpected token "{"
+in APPPATH\Config\Routes.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 14:44:55 --> syntax error, unexpected token "{"
+in APPPATH\Config\Routes.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 14:44:56 --> syntax error, unexpected token "{"
+in APPPATH\Config\Routes.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:39:19 --> Unclosed '(' on line 73 does not match '}'
+in APPPATH\Config\Routes.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:39:20 --> Unclosed '(' on line 73 does not match '}'
+in APPPATH\Config\Routes.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:51:58 --> Call to a member function getSegment() on string
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:52:58 --> Undefined property: App\Controllers\Dashboard::$uri
+in APPPATH\Controllers\Dashboard.php on line 23.
+ 1 APPPATH\Controllers\Dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$uri', 'APPPATH\\Controllers\\Dashboard.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:53:09 --> Undefined property: App\Controllers\Dashboard::$uri
+in APPPATH\Controllers\Dashboard.php on line 23.
+ 1 APPPATH\Controllers\Dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$uri', 'APPPATH\\Controllers\\Dashboard.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:53:09 --> Undefined property: App\Controllers\Dashboard::$uri
+in APPPATH\Controllers\Dashboard.php on line 23.
+ 1 APPPATH\Controllers\Dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$uri', 'APPPATH\\Controllers\\Dashboard.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:54:02 --> Undefined property: App\Controllers\Dashboard::$load
+in APPPATH\Controllers\Dashboard.php on line 23.
+ 1 APPPATH\Controllers\Dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$load', 'APPPATH\\Controllers\\Dashboard.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:54:03 --> Undefined property: App\Controllers\Dashboard::$load
+in APPPATH\Controllers\Dashboard.php on line 23.
+ 1 APPPATH\Controllers\Dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$load', 'APPPATH\\Controllers\\Dashboard.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:54:34 --> Undefined property: App\Controllers\Dashboard::$uri
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$uri', 'APPPATH\\Controllers\\Dashboard.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:54:35 --> Undefined property: App\Controllers\Dashboard::$uri
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$uri', 'APPPATH\\Controllers\\Dashboard.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:54:47 --> Call to undefined function App\Controllers\uri()
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Dashboard->customer_comments()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 16:56:32 --> Call to undefined method App\Controllers\BaseController::Controller()
+in APPPATH\Controllers\Dashboard.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:03:26 --> Class "App\Controllers\Frontend\BaseController" not found
+in APPPATH\Controllers\Frontend\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:03:46 --> Class "App\Controllers\Frontend\BaseController" not found
+in APPPATH\Controllers\Frontend\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(282): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Frontend\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Frontend\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Frontend\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Frontend\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:07:12 --> Undefined property: App\Controllers\Backend\Dashboard::$uri
+in APPPATH\Controllers\Backend\Dashboard.php on line 25.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Dashboard::$uri', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:08:04 --> Undefined property: App\Controllers\Backend\Dashboard::$uri
+in APPPATH\Controllers\Backend\Dashboard.php on line 25.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Dashboard::$uri', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:09:02 --> Undefined property: App\Controllers\Backend\Dashboard::$uri
+in APPPATH\Controllers\Backend\Dashboard.php on line 25.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Dashboard::$uri', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:11:03 --> Undefined property: App\Controllers\Backend\Dashboard::$uri
+in APPPATH\Controllers\Backend\Dashboard.php on line 25.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Backend\\Dashboard::$uri', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:15:49 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\back\layouts\sidebar.php on line 32.
+ 1 APPPATH\Views\back\layouts\sidebar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\back\\layouts\\sidebar.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/sidebar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(33): CodeIgniter\View\View->include('back/layouts/sidebar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/customer_comments', [], true)
+14 APPPATH\Controllers\Backend\Dashboard.php(26): view('back/general/customer_comments', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:18:42 --> Attempt to read property "uri" on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 11.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "uri" on null', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Backend\Dashboard->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:18:43 --> Attempt to read property "uri" on null
+in APPPATH\Controllers\Backend\Dashboard.php on line 11.
+ 1 APPPATH\Controllers\Backend\Dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "uri" on null', 'APPPATH\\Controllers\\Backend\\Dashboard.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Backend\Dashboard->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:19:38 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\back\layouts\sidebar.php on line 32.
+ 1 APPPATH\Views\back\layouts\sidebar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\back\\layouts\\sidebar.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/sidebar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(33): CodeIgniter\View\View->include('back/layouts/sidebar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/customer_comments', [], true)
+14 APPPATH\Controllers\Backend\Dashboard.php(23): view('back/general/customer_comments', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:21:59 --> syntax error, unexpected token "::", expecting "," or ";"
+in APPPATH\Controllers\Backend\Dashboard.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:22:00 --> syntax error, unexpected token "::", expecting "," or ";"
+in APPPATH\Controllers\Backend\Dashboard.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:22:07 --> syntax error, unexpected token "::", expecting "," or ";"
+in APPPATH\Controllers\Backend\Dashboard.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:22:08 --> syntax error, unexpected token "::", expecting "," or ";"
+in APPPATH\Controllers\Backend\Dashboard.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:22:36 --> syntax error, unexpected token "::", expecting "," or ";"
+in APPPATH\Controllers\Backend\Dashboard.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:22:37 --> syntax error, unexpected token "::", expecting "," or ";"
+in APPPATH\Controllers\Backend\Dashboard.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:22:53 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\back\layouts\sidebar.php on line 32.
+ 1 APPPATH\Views\back\layouts\sidebar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\back\\layouts\\sidebar.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/sidebar', null, true)
+ 5 APPPATH\Views\back\layouts\header.php(33): CodeIgniter\View\View->include('back/layouts/sidebar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 9 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+10 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+13 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/customer_comments', [], true)
+14 APPPATH\Controllers\Backend\Dashboard.php(23): view('back/general/customer_comments', [...])
+15 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+16 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+17 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:23:10 --> Class "App\Config\Services" not found
+in APPPATH\Controllers\Backend\Dashboard.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\Backend\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:24:12 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Views\back\layouts\sidebar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/sidebar', null, true)
+ 4 APPPATH\Views\back\layouts\header.php(33): CodeIgniter\View\View->include('back/layouts/sidebar')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 8 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+12 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/customer_comments', [], true)
+13 APPPATH\Controllers\Backend\Dashboard.php(22): view('back/general/customer_comments', [...])
+14 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+15 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:24:15 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Views\back\layouts\sidebar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/sidebar', null, true)
+ 4 APPPATH\Views\back\layouts\header.php(33): CodeIgniter\View\View->include('back/layouts/sidebar')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 8 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+12 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/customer_comments', [], true)
+13 APPPATH\Controllers\Backend\Dashboard.php(22): view('back/general/customer_comments', [...])
+14 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->customer_comments()
+15 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:24:18 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Views\back\layouts\sidebar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/sidebar', null, true)
+ 4 APPPATH\Views\back\layouts\header.php(33): CodeIgniter\View\View->include('back/layouts/sidebar')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 8 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+ 9 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+12 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/dashboard', [], true)
+13 APPPATH\Controllers\Backend\Dashboard.php(17): view('back/dashboard', [...])
+14 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->index()
+15 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+16 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:26:32 --> syntax error, unexpected token ":"
+in APPPATH\Views\back\layouts\sidebar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/sidebar', null, true)
+ 3 APPPATH\Views\back\layouts\header.php(33): CodeIgniter\View\View->include('back/layouts/sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\header.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('back/layouts/header', null, true)
+ 7 APPPATH\Views\back\layouts\master.php(1): CodeIgniter\View\View->include('back/layouts/header')
+ 8 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\layouts\\master.php')
+ 9 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('back/layouts/master', [], true)
+11 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/general/slider', [], true)
+12 APPPATH\Controllers\Backend\Dashboard.php(25): view('back/general/slider', [...])
+13 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Dashboard->slider()
+14 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard))
+15 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:47:07 --> Invalid file: back/media/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/media/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/index', [], true)
+ 3 APPPATH\Controllers\Backend\Media.php(13): view('back/media/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:47:30 --> Invalid file: back/media/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/media/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/index', [], true)
+ 3 APPPATH\Controllers\Backend\Media.php(13): view('back/media/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:47:30 --> Invalid file: back/media/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/media/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/index', [], true)
+ 3 APPPATH\Controllers\Backend\Media.php(13): view('back/media/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:47:33 --> Invalid file: back/media/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/media/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/index', [], true)
+ 3 APPPATH\Controllers\Backend\Media.php(13): view('back/media/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:48:07 --> Invalid file: back/media/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/media/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/index', [], true)
+ 3 APPPATH\Controllers\Backend\Media.php(13): view('back/media/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:48:08 --> Invalid file: back/media/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/media/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/index', [], true)
+ 3 APPPATH\Controllers\Backend\Media.php(13): view('back/media/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:48:08 --> Invalid file: back/media/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/media/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/index', [], true)
+ 3 APPPATH\Controllers\Backend\Media.php(13): view('back/media/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:48:22 --> Invalid file: back/media/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/media/index.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/media/index', [], true)
+ 3 APPPATH\Controllers\Backend\Media.php(13): view('back/media/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Media->photo_gallery()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Media))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-08 17:54:28 --> Call to undefined method CodeIgniter\Router\RouteCollection::genet()
+in APPPATH\Config\Routes.php on line 76.
+ 1 SYSTEMPATH\Router\RouteCollection.php(637): CodeIgniter\CodeIgniter::Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 2 APPPATH\Config\Routes.php(108): CodeIgniter\Router\RouteCollection->group('dashboard', [...], Object(Closure))
+ 3 SYSTEMPATH\CodeIgniter.php(760): require('APPPATH\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

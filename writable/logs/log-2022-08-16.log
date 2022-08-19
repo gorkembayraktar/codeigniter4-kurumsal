@@ -1,0 +1,128 @@
+CRITICAL - 2022-08-16 11:36:30 --> Call to a member function with() on string
+in APPPATH\Controllers\Frontend\Home.php on line 158.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 11:54:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::find()
+in APPPATH\Controllers\Frontend\Home.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim_post()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 11:59:35 --> Undefined variable $status
+in APPPATH\Views\front\iletisim.php on line 16.
+ 1 APPPATH\Views\front\iletisim.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'APPPATH\\Views\\front\\iletisim.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\front\\iletisim.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front\\iletisim', [], true)
+ 5 APPPATH\Controllers\Frontend\Home.php(142): view('front\\iletisim', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->iletisim()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:25:41 --> Call to a member function orderBy() on null
+in APPPATH\Controllers\Backend\Notifications.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Notifications->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Notifications))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:27:33 --> syntax error, unexpected double-quote mark, expecting "," or ";"
+in APPPATH\Views\back\notifications\index.php on line 22.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/notifications/index', [], true)
+ 3 APPPATH\Controllers\Backend\Notifications.php(14): view('back/notifications/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Notifications->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Notifications))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:31:27 --> Undefined variable $list
+in APPPATH\Views\back\notifications\detail.php on line 21.
+ 1 APPPATH\Views\back\notifications\detail.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'APPPATH\\Views\\back\\notifications\\detail.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\notifications\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/notifications/detail', [], true)
+ 5 APPPATH\Controllers\Backend\Notifications.php(31): view('back/notifications/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Notifications->detail('15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Notifications))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:33:01 --> Undefined array key "email"
+in APPPATH\Views\back\notifications\detail.php on line 13.
+ 1 APPPATH\Views\back\notifications\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'APPPATH\\Views\\back\\notifications\\detail.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\notifications\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/notifications/detail', [], true)
+ 5 APPPATH\Controllers\Backend\Notifications.php(31): view('back/notifications/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Notifications->detail('15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Notifications))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:35:50 --> Undefined array key "ip"
+in APPPATH\Views\back\notifications\detail.php on line 37.
+ 1 APPPATH\Views\back\notifications\detail.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ip"', 'APPPATH\\Views\\back\\notifications\\detail.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\back\\notifications\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/notifications/detail', [], true)
+ 5 APPPATH\Controllers\Backend\Notifications.php(31): view('back/notifications/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Notifications->detail('15')
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Notifications))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:37:48 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\back\notifications\detail.php on line 53.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('back/notifications/detail', [], true)
+ 3 APPPATH\Controllers\Backend\Notifications.php(31): view('back/notifications/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Notifications->detail('15')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Notifications))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:49:20 --> Call to undefined function App\Controllers\services()
+in APPPATH\Controllers\LoggedController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(860): App\Controllers\LoggedController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:52:33 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$method
+in APPPATH\Filters\AuthCheckFilter.php on line 20.
+ 1 SYSTEMPATH\Filters\Filters.php(196): App\Filters\AuthCheckFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 2 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('dashboard', 'after')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:52:36 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$method
+in APPPATH\Filters\AuthCheckFilter.php on line 20.
+ 1 SYSTEMPATH\Filters\Filters.php(196): App\Filters\AuthCheckFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 2 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('dashboard', 'after')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:52:48 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+in APPPATH\Filters\AuthCheckFilter.php on line 20.
+ 1 SYSTEMPATH\Filters\Filters.php(196): App\Filters\AuthCheckFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 2 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('dashboard', 'after')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 12:52:53 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$method
+in APPPATH\Filters\AuthCheckFilter.php on line 20.
+ 1 SYSTEMPATH\Filters\Filters.php(196): App\Filters\AuthCheckFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 2 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('dashboard', 'after')
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 13:01:09 --> syntax error, unexpected token "return", expecting "]"
+in APPPATH\Controllers\Backend\Blog.php on line 239.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend\\Blog.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend\\Blog')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend\\Blog')
+ 4 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Backend\\Blog', true)
+ 5 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-16 13:14:27 --> Invalid file: front/bakim.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/bakim.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('front/bakim', [], true)
+ 3 APPPATH\Controllers\Frontend\Home.php(244): view('front/bakim')
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Frontend\Home->bakimda()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
